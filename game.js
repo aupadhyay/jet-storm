@@ -93,7 +93,7 @@ function stopLoop () {
 }
 
 function drawMenu () {
-	gameMusic.play();
+	//gameMusic.play();
 	ctxBg.clearRect(0,0,gameWidth,gameHeight);
 	ctxBg.drawImage(imgSprite,0,580,gameWidth,gameHeight,0,0,gameWidth,gameHeight);
 }
@@ -279,7 +279,6 @@ Jet.prototype.checkShooting = function() {
 		this.isShooting = false;
 	}
 };
-
 Jet.prototype.drawAllBullets = function() {
 	for (var i = 0; i < this.bullets.length; i++) {
 		this.bullets[i].draw();

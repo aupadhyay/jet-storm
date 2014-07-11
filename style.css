@@ -35,17 +35,21 @@ h2 {
 	color: #848482;
 	font-family: "Segoe UI";
 	font-size: 32px;
-	padding-left: 300px;
-	padding-right: 300px;
 	margin: -775px auto 0px;
+}
+
+h3 {
+	display:block;
+	font-family: "Segoe UI";
+	font-size: 24px;
 }
 
 p{
 	display: block;
-	text-align: justify;
+	text-align: center;
 	color: #303030;
 	font-family: "Segoe UI";
 	font-size: 24px;
-	padding-left: 300px;
-	padding-right: 300px;
+	padding-left: 550px;
+	padding-right: 550px;
 }
