@@ -1,14 +1,51 @@
+/**
+* Title : JET STORM - The Video Game
+* By: Abhi Upadhyay - 12 years old
+* Date: 12/7/2013
+**/
+
 body{
+
 	background: #303030;
+}
+
+img {
+	display: inline;
+	vertical-align: middle;
+
+
 }
 
 #canvasBg {
 	display: block;
 	background: #ffffff;
-	margin: 100px auto 0px;
+	margin: 0px auto 0px;
+
 }
 
-canvas{
+
+canvas {
 	display: block;
 	margin: -500px auto 0px;
+}
+
+h2 {
+	display: block;
+	color: hsla(178,28%,45%,1);
+	color: #848482;
+	font-family: "Segoe UI";
+	font-size: 32px;
+	padding-left: 300px;
+	padding-right: 300px;
+	margin: -775px auto 0px;
+}
+
+p{
+	display: block;
+	text-align: justify;
+	color: #303030;
+	font-family: "Segoe UI";
+	font-size: 24px;
+	padding-left: 300px;
+	padding-right: 300px;
 }
