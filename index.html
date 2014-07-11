@@ -1,8 +1,12 @@
+<!--
+ Title : JET STORM - The Video Game
+ By: Abhi Upadhyay - 12 years old
+ Date: 12/7/2013
+-->
 <!DOCTYPE html>
 <html>
 	<head>
 		<title> Jet Storm - Abhi Upadhyay</title>
-		<p> Directions: Use the arrow keys to move the jet and use the spacebar to shoot at the enemies. The goal of the game is to acheive as many points as possible without letting 5 enemies cross the border.</p>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<audio id = 'menuMusic' loop = 'loop'><source src = 'music/menuMusic.mp3'></audio>
 		<audio id = 'gameMusic' loop = 'loop'><source src = 'music/gameMusic.mp3'></audio>
@@ -10,11 +14,17 @@
 	</head>
 
 	<body>
+		<center>
+		<img src = "images/bg_round.png">
+		<h2> JET STORM - The Video Game </h2>
+		<p>Directions: Use the arrow keys to move the jet and use the spacebar to shoot at the enemies. The goal of the game is to acheive as many points as possible without letting 5 enemies cross the border.</p>
 		<canvas id = 'canvasBg' width = '800px' height = '500px'></canvas>
 		<canvas id = 'canvasEnemy' width = '800px' height = '500px'></canvas>
 		<canvas id = 'canvasJet' width = '800px' height = '500px'></canvas>
 		<canvas id = 'canvasHUD' width = '800px' height = '500px'></canvas>
+		<canvas id = 'canvasLose' width = '800px' height = '500px'></canvas>
 		<script src = "game.js"></script>
+		</center>
 	</body>
 
 </html>
